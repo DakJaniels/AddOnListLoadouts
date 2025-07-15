@@ -1,0 +1,28 @@
+## Interface: 110200, 110107
+## Title: AddOnListLoadouts
+## Author: Dack (Dack-Stormrage)
+## Notes: Save and restore sets of enabled addons using Blizzard's built-in AddOn List. Create loadouts for different gameplay scenarios.
+## Version: 1.0
+## SavedVariables: AddOnListLoadoutsDB
+## LoadWith: Blizzard_AddOnList
+## Category-enUS: User Interface
+## Category-enGB: User Interface
+## Category-deDE: Benutzerinterface
+## Category-esES: Interfaz de usuario
+## Category-esMX: Interfaz de usuario
+## Category-frFR: Interface utilisateur
+## Category-itIT: Interfaccia utente
+## Category-koKR: 사용자 인터페이스
+## Category-ptBR: Interface do usuário
+## Category-ptPT: Interface do utilizador
+## Category-ruRU: Интерфейс пользователя
+## Category-zhCN: 用户界面
+## Category-zhTW: 使用者介面
+## X-Category: Interface Enhancements
+## X-Website: https://github.com/DakJaniels/AddOnListLoadouts
+## X-License: MIT
+## X-Curse-Project-ID: 
+## X-WoWI-ID: 
+
+l10n.xml
+AddOnListLoadouts.lua 
