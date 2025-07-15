@@ -3,7 +3,7 @@
 **Save and restore sets of enabled addons using Blizzard's built-in AddOn List**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![WoW Version](https://img.shields.io/badge/WoW-11.0.7%20%7C%2011.0.2-blue.svg)](https://worldofwarcraft.com/)
+[![WoW Version](https://img.shields.io/badge/WoW-11.0.7%20%7C%2011.2.0-blue.svg)](https://worldofwarcraft.com/)
 
 ## Overview
 
