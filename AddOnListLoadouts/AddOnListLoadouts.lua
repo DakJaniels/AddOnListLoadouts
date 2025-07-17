@@ -18,6 +18,7 @@ local ipairs = ipairs
 local type = type
 local date = date
 local print = print
+local max = math.max
 
 -- Table functions
 local tinsert = table.insert
@@ -55,7 +56,7 @@ local StaticPopupDialogs = StaticPopupDialogs
 local GameTooltip = GameTooltip
 local MenuUtil = MenuUtil
 
-local VERSION = "1.0"
+local VERSION = "1.1"
 
 -- Database reference (will be initialized when addon loads)
 local db
@@ -354,8 +355,16 @@ local function EnhanceAddOnList()
 
     -- Create the Loadouts button
     local btn = CreateFrame("Button", "AddOnListLoadoutsButton", AddonList, "UIPanelButtonTemplate")
-    btn:SetSize(80, 22)
     btn:SetText(L["LOADOUTS_BUTTON"])
+
+    -- Calculate dynamic width based on text length
+    local fontString = btn:GetFontString()
+    local textWidth = fontString:GetStringWidth()
+    local padding = 20  -- Extra padding for visual comfort
+    local minWidth = 80 -- Minimum width to maintain consistency
+    local calculatedWidth = max(textWidth + padding, minWidth)
+
+    btn:SetSize(calculatedWidth, 22)
 
     -- Position it next to the existing buttons
     btn:SetPoint("TOPLEFT", AddonList.DisableAllButton, "TOPRIGHT", 5, 0)

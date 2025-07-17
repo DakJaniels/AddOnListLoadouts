@@ -25,6 +25,9 @@ read_globals =
     "C_UI",
     "Enum",
 
+    -- addons
+    "ElvUI",
+
     -- WoW string extensions
     string =
     {

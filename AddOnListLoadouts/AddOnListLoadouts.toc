@@ -2,7 +2,7 @@
 ## Title: AddOnListLoadouts
 ## Author: Dack (Dack-Stormrage)
 ## Notes: Save and restore sets of enabled addons using Blizzard's built-in AddOn List. Create loadouts for different gameplay scenarios.
-## Version: 1.0
+## Version: 1.1
 ## SavedVariables: AddOnListLoadoutsDB
 ## LoadWith: Blizzard_AddOnList
 ## Category-enUS: User Interface
