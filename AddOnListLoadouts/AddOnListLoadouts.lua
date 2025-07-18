@@ -234,6 +234,11 @@ StaticPopupDialogs["ADDON_LIST_LOADOUTS_RELOAD"] =
     OnAccept = function ()
         ReloadUI()
     end,
+    OnShow = function (self, data)
+        if data then
+            self.text:SetFormattedText(L["POPUP_RELOAD_TEXT"], data)
+        end
+    end,
     timeout = 0,
     whileDead = true,
     hideOnEscape = true,
